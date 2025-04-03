@@ -1,0 +1,18 @@
+<lint-module
+    format="1"
+    dir="/Users/purvesa/per/thryve/android/app"
+    name=":app"
+    type="APP"
+    maven="android:app:"
+    agpVersion="8.2.1"
+    buildFolder="/Users/purvesa/per/thryve/build/app"
+    bootClassPath="/usr/local/pkg/android-sdk/platforms/android-35/android.jar:/usr/local/pkg/android-sdk/build-tools/34.0.0/core-lambda-stubs.jar"
+    javaSourceLevel="1.8"
+    compileTarget="android-35">
+  <lintOptions
+      abortOnError="true"
+      absolutePaths="true"
+      checkReleaseBuilds="true"
+      explainIssues="true"/>
+  <variant name="release"/>
+</lint-module>
